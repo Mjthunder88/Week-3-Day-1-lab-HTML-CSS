@@ -1,0 +1,44 @@
+* {
+    font-family: 'Philosopher', sans-serif;
+
+}
+
+header {
+    margin: -10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100vw;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #1B9AAA;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+};
+
+/* .about-us {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+
+} */
+h1 {
+    color: red;
+};
+
+/* .background {
+    background-image: url("https://www.thecabindiary.com/wp-content/uploads/2020/07/Ratatouille-1-4.jpg");
+
+} */
+
+.img-two {
+    width: 300px;
+    height: 300px;
+}
+
+.three {
+    width: 300px;
+    height: 300px;
+}
+
+
