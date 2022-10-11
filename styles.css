@@ -14,31 +14,92 @@ header {
     color: white;
     display: flex;
     justify-content: space-between;
-};
+}
 
-/* .about-us {
-    width: 500px;
-    display: flex;
-    justify-content: center;
+.about-us {
+    text-align: center;
 
-} */
-h1 {
-    color: red;
-};
+}
 
-/* .background {
-    background-image: url("https://www.thecabindiary.com/wp-content/uploads/2020/07/Ratatouille-1-4.jpg");
-
-} */
+.img-one {
+    width: 300px;
+    height: 300px;
+    border: solid black 3px;
+    border-radius: 10px;
+}
 
 .img-two {
     width: 300px;
     height: 300px;
+    border: solid black 3px;
+    border-radius: 10px;
+
 }
 
-.three {
+.img-three {
     width: 300px;
     height: 300px;
+    border: solid black 3px;
+    border-radius: 10px;
 }
+
+
+h2 {
+    border-bottom: solid black;
+}
+
+.top-nav {
+display: flex;
+flex-direction: column;
+margin-left: 60px;
+}
+
+a {
+    padding-bottom: 20px;
+    transition: 1s;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+a:hover {
+    background-color: #373737 ;
+    border-radius: 30px;
+    cursor:pointer;
+}
+
+footer {
+    margin: 10px, -40px, -40px, -40px;
+    width: 100vw;
+    height: 100px;
+    background-color: #1B9AAA;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+footer a {
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+section {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+
+
+
 
 
